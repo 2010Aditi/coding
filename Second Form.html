@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Form</title>
+	<style>
+	::placeholder{
+		color: peachpuff;
+	}
+</style>
+</head>
+<body>
+	<center>
+	<form action="file:///Users/aditi/Desktop/aditiproj/5statesproject.html" target="_blank">
+
+		<fieldset style="width: 180px; border:2px solid blueviolet;">
+	  	<legend>Personal Information</legend>
+	 <div style=" text-align:left;">Name:</div><input type="text" placeholder="Aditi" onkeypress="return (event.charCode > 64 && event.charCode < 91) || (event.charCode > 96 && event.charCode < 123) || (event.charCode==32)" required="required" value="Aditi"/><br>
+	 	<div style=" text-align:left;">Email:</div><input type="email" name="email"><br>
+	 	<div style=" text-align:left;">Moblie No:</div><input type="text" name="" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+	 </fieldset>
+	 <fieldset style="width: 180px; border:2px solid hotpink;">
+	 <legend>Educational Information</legend>
+	 	<div style=" text-align:left;">Class:</div><input type="text" name=""><br>
+	   <div style=" text-align:left;">Roll number:</div><input type="text" name=""><br>
+	    <div style=" text-align:left;">School Name:</div><input type="text" name=""><br>
+
+	
+	</fieldset>
+	 		  
+	  <input type ="submit" name="" value="save">
+	</form>
+	</center>
+	</body>
+	</html>
